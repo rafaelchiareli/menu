@@ -11,6 +11,8 @@ header {
     background-color: blueviolet;
 }
 
+
+
 nav{
     grid-area: aside;
     background-color: brown;
