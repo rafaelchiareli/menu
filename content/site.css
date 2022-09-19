@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template: "header header" auto
+    "aside main" 1fr / auto 1fr ;
+    background-color: blue;
+}
+
+header {
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+nav{
+    grid-area: aside;
+    background-color: brown;
+}
+
+main{
+    grid-area: main;
+    overflow-y: scroll;
+    background-color: aqua;
+}
